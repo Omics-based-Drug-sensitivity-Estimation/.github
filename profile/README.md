@@ -1,6 +1,10 @@
 ## 💊 MultiOmics based Drug Sensitivity Estimation - 6th Yaicon
 ### 🏆 2025 Spring 6th YAICON SECOND PRIZE
 
+<p align="center">
+  <img src="../assets/yaicon_timestep1_true.gif" alt="Timestep1 GIF" width="50%" />
+  <img src="../assets/result-git.gif" alt="Dynamic Result GIF" width="31%" />
+</p>
 
 ## Task Explanation
 
