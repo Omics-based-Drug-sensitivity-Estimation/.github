@@ -3,7 +3,7 @@
 
 <p align="center">
   <img src="../assets/input.png" width="49%" />
-  <img src="../assets/output.png" width="49%" />
+  <img src="../assets/Output.png" width="49%" />
 </p>
 
 ## Task Explanation
