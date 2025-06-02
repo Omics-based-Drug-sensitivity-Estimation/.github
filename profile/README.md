@@ -20,6 +20,10 @@
 - + paso omics-drug ContextAttention
 - + omics-drug consecutive CrossAttention (v2)
 
+## Evaluation
+SMILES = PASO
+<img src="../assets/table.png" width="70%" />
+
 
 ## Reference
 ### [PASO: Drug Response Prediction Model](https://github.com/queryang/PASO)
