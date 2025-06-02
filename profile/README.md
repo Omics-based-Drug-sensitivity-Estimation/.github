@@ -2,8 +2,8 @@
 ### 🏆 2025 Spring 6th YAICON SECOND PRIZE
 
 <p align="center">
-  <img src="../assets/yaicon_timestep1_true.gif" alt="Timestep1 GIF" width="50%" />
-  <img src="../assets/result-git.gif" alt="Dynamic Result GIF" width="31%" />
+  <img src="../assets/input.png" width="49%" />
+  <img src="../assets/output.png" width="49%" />
 </p>
 
 ## Task Explanation
