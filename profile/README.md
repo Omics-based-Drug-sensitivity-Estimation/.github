@@ -11,7 +11,7 @@
 
 # Repositories 👀
 
-#### Main
+#### [Main](https://github.com/Omics-based-Drug-sensitivity-Estimation/Main)
 - ChemBERT based Drug embedding
   > implemented by [Yoonjin Cho](https://github.com/darejinn)
 - Graph-Transformer based embedding
@@ -19,7 +19,7 @@
 - Original Attention, Modified Cross attention
   > implemented by [GyungDeok Bae](https://github.com/bgduck33), [Yoonjin Cho](https://github.com/darejinn)
 
-#### DGL-Life-sci
+#### [DGL-Life-sci](https://github.com/Omics-based-Drug-sensitivity-Estimation/DGL-Life-sci)
 - DGL-Life-Sci based Drug embedding
 
   > implemented by [Junseo Ha](https://github.com/Carolyn-Ha) 
