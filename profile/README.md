@@ -103,8 +103,8 @@ Key takeaway : Improvement over the baseline when switching to ChemBERTa/BGD-Mod
 
 | Name | Role | GitHub |
 | ---- | ---- | ------ |
-| **Yoonjin Cho(Lead)** | Team lead · Proposal · Multi-omics & ChemBERT modeling · Server ops · Experiments · Visualisation | [@darejinn](https://github.com/darejinn) |
-| **Gyungdeok Bae** | Presenter · Model dev lead · PASO & GNN design · Troubleshooting · Attention modules | [@bgduck33](https://github.com/bgduck33) |
+| **Yoonjin Cho** | Team lead · Proposal · Multi-omics & ChemBERT modeling · Server ops · Experiments · Visualisation | [@darejinn](https://github.com/darejinn) |
+| **Gyungdeok Bae** | Presenter · PASO & GNN design · Troubleshooting · Attention modules | [@bgduck33](https://github.com/bgduck33) |
 | **Junseo Ha** | Graph-based drug rep (GIN, AttFP, MPNN) · PASO analysis · Experiments | [@Carolyn-Ha](https://github.com/Carolyn-Ha) |
 | **Yoonju Cho** | Attention improvement · Baseline experiments | [@whdsbwn](https://github.com/whdsbwn) |
 | **Daeseong Kim** | Initial idea · Dataset/AWS support · *in vitro* validation | [@lemonardo1](https://github.com/lemonardo1) |
