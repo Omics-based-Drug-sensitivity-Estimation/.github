@@ -12,9 +12,11 @@
 # Repositories 👀
 
 #### Main
-- ChemBERT, Graph-Transformer based embedding
+- ChemBERT based Drug embedding
+  > implemented by [Yoonjin Cho](https://github.com/darejinn)
+- Graph-Transformer based embedding
+  > implemented by [GyungDeok Bae](https://github.com/bgduck33)
 - Original Attention, Modified Cross attention
-
   > implemented by [GyungDeok Bae](https://github.com/bgduck33), [Yoonjin Cho](https://github.com/darejinn)
 
 #### DGL Life-sci
