@@ -11,11 +11,12 @@
 
 # Repositories 👀
 
-#### [Main](https://github.com/Omics-based-Drug-sensitivity-Estimation/Main)
-- Graph-Transformer based embedding
-  > implemented by [GyungDeok Bae](https://github.com/bgduck33)
+#### [Owner avatar
+[Drug-Sensitivity-Prediction-Pipeline](https://github.com/Omics-based-Drug-sensitivity-Estimation/Drug-Sensitivity-Prediction-Pipeline)
 - ChemBERT based Drug embedding
   > implemented by [Yoonjin Cho](https://github.com/darejinn)
+- Graph-Transformer based Drug embedding
+  > implemented by [GyungDeok Bae](https://github.com/bgduck33)
 - Original Attention, Modified Cross attention
   > implemented by [GyungDeok Bae](https://github.com/bgduck33), [Yoonjin Cho](https://github.com/darejinn)
 
