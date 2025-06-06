@@ -15,18 +15,21 @@
   <p align="center">
   <img width="333" alt="Image" src="https://github.com/user-attachments/assets/9166787e-d33f-40ba-bce8-c465a705064e" />
   </p>
+  
   > implemented by [Yoonjin Cho](https://github.com/darejinn)
   
 #### Graph-Transformer based Drug embedding
   <p align="center">
   <img width="305" alt="Image" src="https://github.com/user-attachments/assets/f474ddbb-45e1-4ad6-bc99-8ab0bfc1fc74" />
   </p>
+  
   > implemented by [GyungDeok Bae](https://github.com/bgduck33)
     
 #### Original Attention, Modified Cross attention
   <p align="center">
   <img width="721" alt="Image" src="https://github.com/user-attachments/assets/41ab2228-32ab-4d2f-b0c4-82d408cc3f87" />
   </p>
+  
   > implemented by [GyungDeok Bae](https://github.com/bgduck33), [Yoonjin Cho](https://github.com/darejinn)
 
 ## [DGL-Life-sci](https://github.com/Omics-based-Drug-sensitivity-Estimation/DGL-Life-sci)
