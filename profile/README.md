@@ -30,7 +30,7 @@
   <img width="721" alt="Image" src="https://github.com/user-attachments/assets/41ab2228-32ab-4d2f-b0c4-82d408cc3f87" />
   </p>
   
-  > implemented by [GyungDeok Bae](https://github.com/bgduck33), [Yoonjin Cho](https://github.com/darejinn)
+  > implemented by [GyungDeok Bae](https://github.com/bgduck33),[Yoonju Cho](https://github.com/whdsbwn), [Yoonjin Cho](https://github.com/darejinn)
 
 ## [DGL-Life-sci](https://github.com/Omics-based-Drug-sensitivity-Estimation/DGL-Life-sci)
 - DGL-Life-Sci based Drug embedding
@@ -38,10 +38,21 @@
 
 ## Evaluation
 SMILES = PASO
-  <p align="center">
-  <img width="700" alt="Image" src="https://github.com/user-attachments/assets/a4b6bc42-3e90-4d4f-80c2-3668d2330e41" />
-  <img width="425" alt="Image" src="https://github.com/user-attachments/assets/5f28a37e-4e18-4b83-8b3f-da5945e02404" />
-  <img width="721" alt="Image" src="https://github.com/user-attachments/assets/41ab2228-32ab-4d2f-b0c4-82d408cc3f87" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/62b4dbd0-f510-4b20-95e9-4789627cb7c5" width="425" alt="Figure 1 – …">
+  <br><em>Figure 1. Comparison of drug embedding models (above-original attenton, below-modified attention</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5f28a37e-4e18-4b83-8b3f-da5945e02404" width="425" alt="Figure 2 – …">
+  <br><em>Figure 2. Performance of our modified cross attention</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a4b6bc42-3e90-4d4f-80c2-3668d2330e41" width="700" alt="Figure 3 – …">
+  <br><em>Figure 3. Pearson Correlation Score and scatter plot for cell-blinded dataset</em>
+</p>
+
   </p>
 
 ## Reference
