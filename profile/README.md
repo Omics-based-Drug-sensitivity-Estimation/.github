@@ -12,10 +12,10 @@
 # Repositories 👀
 
 #### [Main](https://github.com/Omics-based-Drug-sensitivity-Estimation/Main)
-- ChemBERT based Drug embedding
-  > implemented by [Yoonjin Cho](https://github.com/darejinn)
 - Graph-Transformer based embedding
   > implemented by [GyungDeok Bae](https://github.com/bgduck33)
+- ChemBERT based Drug embedding
+  > implemented by [Yoonjin Cho](https://github.com/darejinn)
 - Original Attention, Modified Cross attention
   > implemented by [GyungDeok Bae](https://github.com/bgduck33), [Yoonjin Cho](https://github.com/darejinn)
 
