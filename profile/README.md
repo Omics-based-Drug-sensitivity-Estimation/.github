@@ -11,14 +11,16 @@
 
 # Repositories 👀
 
-#### ChemBERT + 
-- + paso omics-drug ContextAttention
-- + omics=>drug one-way CrossAttention (v1)
-- + omics-drug two-way consecutive CrossAttention (v2)
+#### Main
+- ChemBERT, Graph-Transformer based embedding
+- Original Attention, Modified Cross attention
 
-#### BGDmodel +
-- + paso omics-drug ContextAttention
-- + omics-drug consecutive CrossAttention (v2)
+  > implemented by [GyungDeok Bae](https://github.com/bgduck33), [Yoonjin Cho](https://github.com/darejinn)
+
+#### DGL Life-sci
+- DGL-LifeSci based Drug embedding
+
+  > implemented by [Junseo Ha](https://github.com/Carolyn-Ha) 
 
 ## Evaluation
 SMILES = PASO
