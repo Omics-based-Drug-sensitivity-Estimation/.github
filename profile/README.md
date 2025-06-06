@@ -5,8 +5,7 @@
 
 ## 📌 Overview
 Accurately predicting how a cancer cell line responds to a drug (IC-50) remains an open challenge: the outcome depends not only on the drug’s chemistry but also on the cell’s intricate molecular profile.  
-We present an end-to-end deep-learning pipeline that **fuses three omics layers (GEP, MUT, CNV)** with advanced **drug-embedding models (ChemBERTa & graph-based GNN)** and a **bi-directional cross-attention mechanism**. Our approach improves upon the 2025 benchmark paper  
-[*“Anticancer drug response prediction integrating multi-omics pathway-based difference features and multiple deep-learning techniques.”*](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012905)
+We present an end-to-end deep-learning pipeline that **fuses three omics layers (GEP, MUT, CNV)** with advanced **drug-embedding models (ChemBERTa & graph-based GNN)** and a **bi-directional cross-attention mechanism**. Our approach improves upon the 2025 paper [*“Anticancer drug response prediction integrating multi-omics pathway-based difference features and multiple deep-learning techniques.”*](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012905)
 
 <p align="center">
   <img src="../assets/input.png" width="49%" />
