@@ -19,8 +19,8 @@
 - Original Attention, Modified Cross attention
   > implemented by [GyungDeok Bae](https://github.com/bgduck33), [Yoonjin Cho](https://github.com/darejinn)
 
-#### DGL Life-sci
-- DGL-LifeSci based Drug embedding
+#### DGL-Life-sci
+- DGL-Life-Sci based Drug embedding
 
   > implemented by [Junseo Ha](https://github.com/Carolyn-Ha) 
 
