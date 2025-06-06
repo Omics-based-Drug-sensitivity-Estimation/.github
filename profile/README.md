@@ -6,7 +6,7 @@
 ## 📌 Overview
 Accurately predicting how a cancer cell line responds to a drug (IC-50) remains an open challenge: the outcome depends not only on the drug’s chemistry but also on the cell’s intricate molecular profile.  
 We present an end-to-end deep-learning pipeline that **fuses three omics layers (GEP, MUT, CNV)** with advanced **drug-embedding models (ChemBERTa & graph-based GNN)** and a **bi-directional cross-attention mechanism**. Our approach improves upon the 2025 benchmark paper  
-*“Anticancer drug response prediction integrating multi-omics pathway-based difference features and multiple deep-learning techniques.”*
+[*“Anticancer drug response prediction integrating multi-omics pathway-based difference features and multiple deep-learning techniques.”*](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012905)
 
 <p align="center">
   <img src="../assets/input.png" width="49%" />
@@ -20,11 +20,10 @@ We present an end-to-end deep-learning pipeline that **fuses three omics layers 
 | ------------------- | ----------- |
 | **Drug representation lacks structural cues** (only SMILES RNN) | **Two interchangeable drug encoders**<br>• *ChemBERTa* — language-style SMILES embedding<br>• *BGD* — graph transformer on molecular graphs |
 | **Shallow “context attention”** can’t model complex drug-omics interplay | **Deep, bi-directional cross-attention** (drug ↔ each omics) giving **6 interaction maps** |
-| No explicit pathway-level signal | **Pathway-difference statistics (619 KEGG sets)** per omics fed as features |
 
 ---
 
-## 🔬 Data in a nutshell
+## 🔬 Data
 | Source | Entities | Notes |
 | ------ | -------- | ----- |
 | **CCLE** | 688 cell lines | GEP (log₂ TPM + 1), MUT (0/1/2), CNV (log₂ discrete) |
@@ -61,7 +60,7 @@ We present an end-to-end deep-learning pipeline that **fuses three omics layers 
 | Repository | Description |
 | ---------- | ----------- |
 | **[Drug-Sensitivity-Prediction-Pipeline](https://github.com/Omics-based-Drug-sensitivity-Estimation/Drug-Sensitivity-Prediction-Pipeline)** | Main training pipeline, model zoo, experiment scripts |
-| **[DGL-Life-sci fork](https://github.com/Omics-based-Drug-sensitivity-Estimation/DGL-Life-sci)** | Custom extensions for graph-based drug encoders |
+| **[DGL-Life-sci](https://github.com/Omics-based-Drug-sensitivity-Estimation/DGL-Life-sci)** | Custom extensions for graph-based drug encoders |
 
 <details>
 <summary>Model zoo snapshots</summary>
@@ -97,7 +96,7 @@ We present an end-to-end deep-learning pipeline that **fuses three omics layers 
   <br><em>Figure 3. Pearson r on cell-blinded split (scatter)</em>
 </p>
 
-Key takeaway : **+X % improvement in Pearson r** over the baseline when switching to ChemBERTa + cross-attention. Full metrics in `/results/`.
+Key takeaway : **+Improvement over the baseline when switching to ChemBERTa/BGD-Model + cross-attention. Full metrics in `/results/`.
 
 ---
 
@@ -111,7 +110,7 @@ Key takeaway : **+X % improvement in Pearson r** over the baseline when switchin
 | Name | Role | GitHub |
 | ---- | ---- | ------ |
 | **Yoonjin Cho** | Team lead · Proposal · Multi-omics & ChemBERT modeling · Server ops · Experiments · Visualisation | [@darejinn](https://github.com/darejinn) |
-| **GyungDeok Bae** | Presenter · Model dev lead · PASO & GNN design · Troubleshooting · Attention modules | [@bgduck33](https://github.com/bgduck33) |
+| **Gyungdeok Bae** | Presenter · Model dev lead · PASO & GNN design · Troubleshooting · Attention modules | [@bgduck33](https://github.com/bgduck33) |
 | **Junseo Ha** | Graph-based drug rep (GIN, AttFP, MPNN) · PASO analysis · Experiments | [@Carolyn-Ha](https://github.com/Carolyn-Ha) |
 | **Yoonju Cho** | Attention improvement · Baseline experiments | [@whdsbwn](https://github.com/whdsbwn) |
 | **Daeseong Kim** | Initial idea · Dataset/AWS support · *in vitro* validation | [@lemonardo1](https://github.com/lemonardo1) |
