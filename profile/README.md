@@ -95,7 +95,7 @@ We present an end-to-end deep-learning pipeline that **fuses three omics layers 
   <br><em>Figure 3. Pearson r on cell-blinded split (scatter)</em>
 </p>
 
-Key takeaway : **+Improvement over the baseline when switching to ChemBERTa/BGD-Model + cross-attention. Full metrics in `/results/`.
+Key takeaway : Improvement over the baseline when switching to ChemBERTa/BGD-Model + cross-attention. Full metrics in `/results/`.
 
 ---
 
